@@ -32,7 +32,7 @@ master.config(['$urlMatcherFactoryProvider', '$routeProvider', '$locationProvide
         //      views: {
         //          "master": {
         //              templateUrl: 'views/template.html',
-                    //  controller: 'template',
+        //              controller: 'template',
         //              controllerAs: 'template'
         //          }
         //      }
