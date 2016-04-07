@@ -30,7 +30,7 @@ var server = app.listen(port, function () {
 // #endregion
 
 // #region MAIN_ROUTE
-app.get("(/[a-zA-Z(%20)]+)+", function (req, res) {
+app.get("(/[a-zA-Z0-9(%20)]+)+", function (req, res) {
     console.log(req.url);
     console.log("sending home page indirectly");
     res.sendFile(process.env.PWD + '/public/index.html');
@@ -43,4 +43,4 @@ app.get("(/[a-zA-Z(%20)]+)+", function (req, res) {
 
 // #region POST
 // #endregion
-// #endregion
+// #endregio
