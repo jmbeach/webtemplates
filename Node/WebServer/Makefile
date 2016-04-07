@@ -9,4 +9,4 @@ less:
 	lessc public/css/less/main.less public/css/main.css
 
 open:
-	chrome-cli open http://localhost:5813
+	chrome-cli open http://localhost:<your-port>
